@@ -1,0 +1,78 @@
+<html>
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <script type="application/javascript">
+    $(document).ready(function(){
+    $("li").click(function(){
+    $("li").removeClass('current');
+    $(this).addClass('current');
+    })});</script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+        <h3><span class="highlight">G</span> Web Designs</h3>
+                </div>
+            <nav>
+                <ul>
+                <li class="current"><a href="index.html" >HOME</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#boxes">Languages</a></li>    
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    
+    <section id="showcase">
+    <div class="container">
+        <h1>Cheap Web Designs</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vehicula, turpis quis lacinia fringilla, urna velit dignissim odio, in scelerisque urna erat et ex. </p>
+        </div>
+    </section>
+    
+    <section id="newsletter">
+        <div class="container">
+        <h1>Subscribe to Newsletter</h1>
+        <form>
+            <input type=email placeholder="Enter our email..">
+            <button type="submit" class="button_1">Subcribe</button></form></div>
+    </section>
+    
+    
+    <section id="boxes">
+    <div class="container">
+        <div class="box">
+            <img src="img/html.png">
+        <h3>HTML</h3>
+        <p>HyperText Markup Language</p></div>
+        
+        <div class="box">
+        <img src="img/css.png">    
+        <h3>CSS3</h3>
+        <p>Casacade StyleSheet </p></div>
+        
+        <div class="box">
+            <img src="img/react.png">
+        <h3>React</h3>
+        <p>Javascript Front End Library</p></div>
+        
+        </div></section>
+    <hr>
+    
+    <div id="about">
+        <div class=img>
+        <img src="img/user.png"></div>
+       <h3>Gaurav Rawat</h3>
+    <p>Hello,My name is Gaurav Rawat this is my first template.This is just a start !</p></div>
+        
+    
+    
+    <footer>
+    <p>Gaurav Web Design Copyright &copy; 2018</p></footer>
+</body>
+</html>
